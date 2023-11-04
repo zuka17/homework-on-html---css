@@ -49,6 +49,44 @@
 .dp1{
     width: 400px ;
 }
-.dmd{
+.ddmdmdmddmdmdmddmdmdmdmdmdmdmddmdmdmdmdmdmdmdmdmdmdmdmdmdmdmddmdmdmdmdmdmdmdmmdmdmddmdmdmdmdm{
+    border: 7px solid  #707070;
+}
+
+.dfs{
+    color: blue;
+}
+
+
+.hkv{
+    border: 7px solid  #707070;
+}
+
+.yelow{
+    background-color: #F9F206;
+}
+
+.blue{
+    color: blue;
+}
+
+.big{
+    border: 2px solid  #F9F206;
+}
+
+
+.bylow{
     display: flex;
+}
+
+.blwo{
+    background-color: #F9F206;
+}
+
+
+.og{
+    flex: 1;
+     
+    text-align: center;
+    padding: 10px;
 }
