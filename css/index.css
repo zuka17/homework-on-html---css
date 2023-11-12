@@ -27,9 +27,9 @@
     border: 1px solid #707070;
 }
 
-.flm {
+/* .flm {
     border: 7px solid #707070;
-}
+} */
 
 .gochi {
     padding: 20px;
@@ -37,32 +37,27 @@
     background-color: #F9F206;
 }
 
-
 .text {
     display: flex;
 }
 
 .dog1 {
     background-color: #F9F206;
-    /* width: 1200px; */
+    width: 33.33%;
+
 }
 
 /* .dp1 {
     width: 400px;
 } */
 
-.ddmdmdmddmdmdmddmdmdmdmdmdmdmddmdmdmdmdmdmdmdmdmdmdmdmdmdmdmddmdmdmdmdmdmdmdmmdmdmddmdmdmdmdm {
-    border: 7px solid #707070;
-}
-
 .dfs {
     color: blue;
 }
 
-
-.hkv {
+/* .hkv {
     border: 7px solid #707070;
-}
+} */
 
 .yelow {
     background-color: #F9F206;
@@ -76,7 +71,6 @@
     border: 2px solid #F9F206;
 }
 
-
 .bylow {
     display: flex;
 }
@@ -84,7 +78,6 @@
 .blwo {
     background-color: #F9F206;
 }
-
 
 .og {
     flex: 1;
@@ -99,8 +92,10 @@
 
 .row {
     display: flex;
-}
+    /* width: 33.33%; */
+    flex-wrap: wrap;
 
+}
 
 .flex+ {
     flex: 1;
