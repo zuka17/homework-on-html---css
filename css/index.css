@@ -6,7 +6,7 @@
     flex: 1;
 
     text-align: center;
-    padding: 10px;
+  
 }
 
 .msh {
@@ -102,4 +102,20 @@
 
     text-align: center;
     padding: 10px;
+}
+.upper-case{
+font-family: "ALK Rounded Nusx Med", sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+.fl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
 }
