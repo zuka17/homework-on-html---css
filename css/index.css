@@ -94,7 +94,7 @@
     display: flex;
     /* width: 33.33%; */
     flex-wrap: wrap;
-
+        justify-content: space-between;
 }
 
 .flex+ {
@@ -118,4 +118,7 @@ font-family: "ALK Rounded Nusx Med", sans-serif;
 .flex{
     display: flex;
     justify-content: space-between;
+}
+.row+{
+    width:33.33%
 }
