@@ -6,7 +6,7 @@
     flex: 1;
 
     text-align: center;
-  
+
 }
 
 .msh {
@@ -94,7 +94,7 @@
     display: flex;
     /* width: 33.33%; */
     flex-wrap: wrap;
-        justify-content: space-between;
+    justify-content: space-between;
 }
 
 .flex+ {
@@ -103,22 +103,30 @@
     text-align: center;
     padding: 10px;
 }
-.upper-case{
-font-family: "ALK Rounded Nusx Med", sans-serif;
+
+.upper-case {
+    font-family: "ALK Rounded Nusx Med", sans-serif;
 }
 
-.flex{
+.flex {
     display: flex;
 }
-.fl{
+
+.fl {
     display: flex;
     justify-content: space-between;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
 }
-.row+{
-    width:33.33%
+
+.roww {
+    width: 33.33%;
+}
+
+
+.rowww {
+    width: 25%;
 }
