@@ -23,11 +23,11 @@
 .ylm {
     background-color: #F9F206;
     height: 30px;
-      
+
     color: #000000;
-  
+
     border: 1px solid #707070;
-    
+
 }
 
 /* .flm {
@@ -46,7 +46,7 @@
 
 .dog1 {
     background-color: #F9F206;
-    width: 33.33%;
+
 
 }
 
@@ -135,10 +135,29 @@
     width: 25%;
 }
 
-.logo{
+.logo {
     width: 230px;
     padding-left: 0px;
 }
-.righht{
+
+.righht {
     padding-right: 0px;
+}
+
+.header a {
+    color: inherit
+}
+
+
+a:hover{
+    color:rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.dog1:hover{
+    color: #F9F206;
+    background-color: #000000;
+    filter: grayscale(100%);
+}
+.row+{
+    width: 33.33%;
 }
