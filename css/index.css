@@ -46,8 +46,8 @@
 
 .dog1 {
     background-color: #F9F206;
-
-
+    transition: all 10s;
+    margin: 20px
 }
 
 /* .dp1 {
@@ -158,18 +158,12 @@ a:hover {
     color: #F9F206;
     background-color: #000000;
     filter: grayscale(100%);
-    transition: all 9s;
+    transition: all 0.1s;
 }
 
 /* .row+{
     width: 33.33%;
 } */
-
-
-
-
-
-
 .padding {
     padding: 40px;
 }
@@ -177,3 +171,9 @@ a:hover {
 /* .row+m{
     width: 50%;
 } */
+
+.dog1 + p {
+    animation-name: move;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
