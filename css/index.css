@@ -34,11 +34,7 @@
     border: 7px solid #707070;
 } */
 
-.gochi {
-    padding: 20px;
-    border: 7px solid #707070;
-    background-color: #F9F206;
-}
+
 
 .text {
     display: flex;
@@ -47,7 +43,8 @@
 .dog1 {
     background-color: #F9F206;
     transition: all 10s;
-    margin: 20px
+    margin: 20px;
+
 }
 
 /* .dp1 {
@@ -64,6 +61,7 @@
 
 .yelow {
     background-color: #F9F206;
+    text-align: left;
 }
 
 .blue {
@@ -180,10 +178,55 @@ a:hover {
 }
 
 @keyframes move {
-0%  {
-    transform: translateX(0px); 
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(100px);
+    }
 }
-100% {
-    transform: translateX(100px);
+
+.text {
+    padding: 50px;
+
 }
+
+.box {
+    border: 2px solid #F9F206;
+    /* padding-left: 118px;
+    padding-right: 117px;
+    padding-bottom: 500px;
+    border-width: 1685;
+    border-right: 770; */
+    flex-wrap: nowrap;
+}
+
+
+.padding-top {
+    padding-top: 84px;
+}
+
+.center {
+    text-align: center;
+}
+
+.the-last {
+    border-left: 118;
+}
+
+.margin {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.position {
+    position: relative;
+     bottom: 160px;
+     right: 100px;
+}
+
+.positionx{
+    position: relative;
+        top: 160px;
 }
